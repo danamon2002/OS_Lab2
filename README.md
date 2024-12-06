@@ -1,8 +1,11 @@
 # OS_Lab3
-EECE.4811 Lab 3
+EECE.4811 Lab 2
 
 PROGRAM PARAMETERS:
-The way this program runs can be modified by changing some definitions in *MMS.h*.
+To change the number of consumer threads, change the argument:
+
+Example command:
+`./program2 n`  (change `n` to be an integer representing the # of )
 
 To change between first/best/worst fit, modify the value of *FIT_MODE*:
  * 1: First fit.
